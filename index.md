@@ -1,37 +1,121 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title> INICIO </title>
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="css/estilos.css" rel="stylesheet" >
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet">  
+</head>                     
 
-You can use the [editor on GitHub](https://github.com/maquizhpi/Presentacion-ae1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<body class="hidden">
+  <header>
+    <nav id="nav" class="nav1">
+     <div class="contenedor-nav">
+        <div class="enlaces" id="enlaces">
+          <a href="index.html"> INICIO </a>
+          <a href="cont/mision.html"> MISION </a>
+          <a href="cont/catalogo.html"> CATALOGO DE PRODUCTOS </a>
+          <a href="cont/productos.html"> PRODUCTOS </a>
+          <a href="cont/noticias.html"> NOTICIAS </a>
+          <a href="cont/contacto.html"> COMUNICATE CON NOSOTROS </a>
+       </div>
+      <div class="logo">
+        <a href= "index.html"></a>
+        <img src= img/logo.png alt="LOGO MUNDOCLEAN">
+      </div>
+     </div>
+    </nav>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <section class="textos-header" >
+        <h1>DISTRIBUIDORA DE INSUMOS DE LIMPIEZA MUNDOCLEAN</h1>
+        <br>
+        <h2>Articulos de limpieza, isumos medicos y Equipo Proteccion Personal</h2>
+    </section>
+    <div class="contenedorAudio">
+      <h2 class="textos-header">Escucha a nuestra asesora comercial</h2>
+      <br>
+      <audio controls="">
+        <source src="media/au1.mp3" type="audio/mp3"> src="">
+      </audio>
+    </div>
+    <div class="wave" style="height: 150px; overflow: hidden;">
+      <svg viewBox="0 0 500 150" preserveAspectRatio="none"
+        style="height: 100%; width: 100%;">
+          <path d="M0.00,49.98 C150.00,150.00 349.20,-50.00 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" 
+          style="stroke: none; fill: #ffffff;">
+          </path>
+      </svg>
+    </div>
+  </header>
+  <main>
+    <section class="productos">
+      <div class="contenedor">
+          <h2 class="titulo">Nuestros principales productos</h2>
+          <div class="galeria-port">
+              <div class="imagen-port">
+                  <img src="img/gn.png" alt="">
+                  <div class="hover-galeria">
+                      <img src="img/icono1.png" alt="">
+                      <p>Nuestros productos</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                  <img src="img/bio.jpg" alt="">
+                  <div class="hover-galeria">
+                      <img src="img/icono1.png" alt="">
+                      <p>Nuestros productos</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                  <img src="img/lmp.jpg" alt="">
+                  <div class="hover-galeria">
+                      <img src="img/icono1.png" alt="">
+                      <p>Nuestros productos</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                  <img src="img/mas.jpg" alt="">
+                  <div class="hover-galeria">
+                      <img src="img/icono1.png" alt="">
+                      <p>Nuestros productos</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                  <img src="img/panos.png" alt="">
+                  <div class="hover-galeria">
+                      <img src="img/icono1.png" alt="">
+                      <p>Nuestros productos</p>
+                  </div>
+              </div>
+              <div class="imagen-port">
+                  <img src="img/qde.png" alt="">
+                  <div class="hover-galeria">
+                      <img src="img/icono1.png" alt="">
+                      <p>Nuestros productos</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+   </section>
+  </main>
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maquizhpi/Presentacion-ae1/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <footer>
+      <div class="contenedor-footer">
+        <div class="content-foo">
+          <h4>Ambato-Ecuador</h4>
+          <p>Barcelona y Madrid</p>
+        </div>
+       <div class="content-foo">
+         <h4>Telefonos</h4>
+         <p>0969808734  032411217</p>
+        </div>
+        <div class="content-foo">
+          <h4>Correo electronico</h4>
+          <p>mundoclean92@gmail.com</p>
+        </div>
+      </div>
+      <h2 class="titulo-final">&copy; Quizhpi Marco Antonio- 2020 - Todos los derechos reservados</h2>
+  </footer>
+</body>
+</html>
